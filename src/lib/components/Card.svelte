@@ -150,17 +150,17 @@
     
       let name;
       if (thisCard.classList[1] === 'water') {
-        name = 'Squirtle';
+        name = 'Squirtle%20💦';
       } else if (thisCard.classList[1] === 'fire') {
-        name = 'Charmander';
+        name = 'Charmander%20🔥';
       } else if (thisCard.classList[1] === 'grass') {
-        name = 'Bulbasaur';
+        name = 'Bulbasaur%20🍃';
       }
       setTimeout(() => {
         if ($activeCard === thisCard) {
-          window.location.href = "https://api.whatsapp.com/send?phone=56981273828&text=Elegiste a " + name;
+          window.location.href = "https://api.whatsapp.com/send?phone=56981273828&text=Hola%20Carlos!%20Elegí%20a%20" + name +".";
         }
-      }, 10000);
+      }, 6000);
     }
   };
 
