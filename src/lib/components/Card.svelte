@@ -158,9 +158,9 @@
       }
       setTimeout(() => {
         if ($activeCard === thisCard) {
-          window.location.href = "https://api.whatsapp.com/send?phone=56994991536&text=Elegiste a" + name;
+          window.location.href = "https://api.whatsapp.com/send?phone=56981273828&text=Elegiste a " + name;
         }
-      }, 7000);
+      }, 6000);
     }
   };
 
