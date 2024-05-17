@@ -156,11 +156,11 @@
       } else if (thisCard.classList[1] === 'grass') {
         name = 'Bulbasaur%20🍃';
       }
-      setTimeout(() => {
-        if ($activeCard === thisCard) {
+      thisCard.addEventListener('touchstart', function(event) {
+        if (event.touches.length === 2) {
           window.location.href = "https://api.whatsapp.com/send?phone=56981273828&text=Hola%20Carlos!%20Elegí%20a%20" + name +".";
         }
-      }, 6000);
+      });
     }
   };
 
