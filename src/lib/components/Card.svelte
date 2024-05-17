@@ -411,15 +411,7 @@
       aria-label="Expand the Pokemon Card; {name}."
       tabindex="0"
       >
-      <img
-        class="card__back"
-        src={back_img}
-        alt="The back of a Pokemon Card, a Pokeball in the center with Pokemon logo above and below"
-        loading="lazy"
-        width="660"
-        height="921"
-      />
-      <div class="card__front" 
+       <div class="card__front" 
         style={ staticStyles + foilStyles }>
         <img
           src={front_img}
