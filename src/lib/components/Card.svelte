@@ -199,14 +199,6 @@
     let scaleH = (window.innerHeight / rect.height) * 0.9;
     let scaleF = 1.75;
     setCenter();
-    if (firstPop) {
-      delay = 1000;
-      springRotateDelta.set({
-        x: 360,
-        y: 0,
-      });
-    }
-    
     springScale.set(Math.min(scaleW, scaleH, scaleF));
     interactEnd(null, delay);
   };
