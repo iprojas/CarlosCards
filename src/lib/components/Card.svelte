@@ -206,7 +206,7 @@
         y: 0,
       });
     }
-    firstPop = false;
+    
     springScale.set(Math.min(scaleW, scaleH, scaleF));
     interactEnd(null, delay);
   };
