@@ -89,7 +89,7 @@
       return img;
     }
     if ( isDefined( set ) && isDefined( number ) ) {
-      return `https://images.pokemontcg.io/${ set.toLowerCase() }/${ number }_hires.png`;
+      return `${ number }_hires.png`;
     }
     return "";
   }

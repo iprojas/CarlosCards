@@ -9,8 +9,8 @@
     "number": "33",
     "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/sm10/33.png",
-      "large": "https://images.pokemontcg.io/sm10/33_hires.png"
+      "small": "33_hires.webp",
+      "large": "33_hires.webp"
     }
   },
   {
@@ -23,8 +23,8 @@
     "number": "7",
     "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/sm115/7.png",
-      "large": "https://images.pokemontcg.io/sm115/7_hires.png"
+      "small": "7_hires.webp",
+      "large": "7_hires.webp"
     }
   },
   {
@@ -37,8 +37,8 @@
     "number": "1",
     "rarity": "Common",
     "images": {
-      "small": "https://images.pokemontcg.io/sm35/1.png",
-      "large": "https://images.pokemontcg.io/sm35/1_hires.png"
+      "small": "1_hires.webp",
+      "large": "1_hires.webp"
     }
   }
 ]

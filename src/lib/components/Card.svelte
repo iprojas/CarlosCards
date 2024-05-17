@@ -38,7 +38,7 @@
 
   let back_img = back;
   let front_img = "";
-  let img_base = img.startsWith("http") ? "" : "https://images.pokemontcg.io/";
+  let img_base = img.startsWith("http") ? "" : "";
 
 
   let thisCard;
@@ -160,7 +160,7 @@
         if ($activeCard === thisCard) {
           window.location.href = "https://api.whatsapp.com/send?phone=56981273828&text=Elegiste a " + name;
         }
-      }, 6000);
+      }, 10000);
     }
   };
 
