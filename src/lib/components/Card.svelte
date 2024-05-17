@@ -17,7 +17,7 @@
 
   // image props
   export let img = "";
-  export let back = "tcg-card-back-2x.webp";
+  export let back = "";
   export let foil = "";
   export let mask = "";
 
